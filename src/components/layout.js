@@ -1,27 +1,33 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
+import  navBar  from './nav'
 import {
-    container,
-    heading,
-    navLinks,
-    navLinkItem,
-    navLinkText
+    fullsite,
+    siteWrapper,
+    footerContent
   } from '../styles/layout.module.css'
+  import * as settings from '../styles/settings.css'
+  import '../styles/typography.css'
+  import '../index.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className={container}>
+    <div className={fullsite}>
+      <div className={siteWrapper}>
       <title>{pageTitle}</title>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
-          <li className={navLinkItem}><Link to="/about" className={navLinkText}>About</Link></li>
-        </ul>
-      </nav>
-      <main>
-        <h1 className={heading}>{pageTitle}</h1>
-        {children}
-      </main>
+      <div>
+        <navBar />
+        <main>
+          {children}
+        </main>
+        <footer>
+            <div className={footerContent}>
+              <p> Mail: <a href="mailto:mail@tobiaszimmer.dev">mail@tobiaszimmer.dev</a></p>
+            </div>
+        </footer>
+      </div>
+      </div>
     </div>
   )
 }

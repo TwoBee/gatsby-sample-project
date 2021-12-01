@@ -6,11 +6,8 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return (
 <Layout pageTitle="Home Page">
-  <p>Yaba daba doo das isn Fülltext</p>
-  <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="../images/icon.png"
-      />
+  <h2>Yaba daba doo das isn Fülltext</h2>
+ 
 </Layout>
   )
 }
