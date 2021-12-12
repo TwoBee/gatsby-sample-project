@@ -1096,4 +1096,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 4.5rem;
     line-height: 1;
   }
+
+  .md\:opacity-0 {
+    opacity: 0;
+  }
 }
