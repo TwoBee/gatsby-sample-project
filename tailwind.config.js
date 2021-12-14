@@ -27,10 +27,14 @@ module.exports = {
         'moderne': ['Moderne Sans', 'sans-serif'],
         'work': ['Work Sans', 'sans-serif'],
         'jetbrains': ['JetBrainsMono', 'sans-serif'],
+        'fira': ['Fira Sans', 'sans-serif'],
        },
        backgroundImage: {
         'profil-bubble': "url('../src/images/logo_transparent.png')",
-       }
+       },
+       gridTemplateColumns: {       
+         'timeline': 'calc(100% / 12 * 5) calc(100% / 12 * 2) calc(100% / 12 * 5)'
+        }
     }
   },
   variants: {
