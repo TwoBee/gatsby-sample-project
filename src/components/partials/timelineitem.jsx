@@ -13,7 +13,9 @@ const Timelineitem = ({ headline, text, date, colstart }) => {
 
         <div className="block  my-10 lg:my-5 md:grid grid-cols-timeline gap-4">
             <div className={"min-h-fit max-w-md row-start-1 " + col}>
+                <span className="md:hidden pb-8 text-cyan-400 pt-6 text-8xl md:text-9xl row-start-1 bg-inherit rounded break-words diagonal-fractions">{date}</span>
                 <div class="relative group ">
+
                     <div class="absolute -inset-0.5 bg-gradient-to-br from-teal-400 to-indigo-400 rounded-lg blur-lg opacity-95 group-hover:blur-3xl group-hover:duration-300 transition duration-1000 animate-tilt">
                     </div>
                     <div class="relative lg:aspect-square bg-zinc-700 h-auto rounded-lg p-8 group-hover:bg-neutral-100 transition duration-700">
@@ -23,7 +25,7 @@ const Timelineitem = ({ headline, text, date, colstart }) => {
                 </div>
             </div>
             <div className="min-h-fit min-w-fit flex max-w-mdcol-start-2 items-center justify-center h-auto break-words font-extralight">
-                <span className="text-cyan-400 pt-6 text-3xl md:text-9xl row-start-1 bg-inherit rounded break-words diagonal-fractions">{date}</span>
+                <span className="hidden md:block text-cyan-400 pt-6 text-3xl md:text-9xl row-start-1 bg-inherit rounded break-words diagonal-fractions">{date}</span>
             </div>
         </div >
     )
