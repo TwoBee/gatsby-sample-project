@@ -5,9 +5,9 @@ import * as React from 'react'
 const Introcard = () => {
   return (
     <React.Fragment>
-      <div class="w-auto h-64 mb-6  rounded px-auto bg-profil-bubble bg-contain bg-bottom bg-no-repeat">
+      <div class="w-auto h-64 lg:mb-6  rounded px-auto bg-profil-bubble bg-contain bg-bottom bg-no-repeat">
       </div>
-      <div class="flex p-6 pb-16 justify-center items-center w-full font-fira font-thin">
+      <div class="flex md:py-6 pb-16 justify-center items-center w-full font-fira font-thin">
         <div class="w-full md:w-2/4 p-16">
           <h1 class="hidden md:text-7xl text-transparent bg-clip-text bg-gradient-to-br from-teal-400 to-indigo-600 mb-16">tobiaszimmer.dev</h1>
           <div class="relative group">

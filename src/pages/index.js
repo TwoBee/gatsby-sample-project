@@ -8,7 +8,7 @@ import Divider from '../components/divider'
 // markup
 const IndexPage = () => {
   return (
-    <body class="bg-zinc-700">
+    <body class="bg-zinc-700 pt-11">
       <div class="">
         <Introcard />
         <Divider />
