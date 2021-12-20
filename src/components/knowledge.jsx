@@ -4,11 +4,13 @@ import knowledge from '../data/knowledge';
 const Knowledge = () => {
     return (
         <React.Fragment >
-            <h1 className="text-center text-neutral-300 text-8xl underline underline-offset-[20px]">Kenntnisse</h1>
-            <div className="p-16 md:pl-40 md:pr-40 md:pb-40 grid grid-cols-4 gap-y-5 bg-zinc-700">
-
+            <div className="px-4 py-16 gap-2 md:px-40 md:pb-40 grid grid-cols-2 md:grid-cols-4 md:gap-4 md:auto-rows-fr">
+            <h1 className="text-center text-neutral-300 text-8xl font-extrabold md:underline underline-offset-[0.25em] col-span-2 md:col-span-4 pb-12">Skillset</h1>
                 {knowledge.map(knowledge => (
-                    <div class="bg-neutral-300 rounded shadow transition duration-700 hover:shadow-teal-400/50 hover:scale-150 text-zinc-700 mx-auto max-w-md px-4 hover:bg-teal-400 hover:text-zinc-700">{knowledge.text}</div>
+                    <div className="bg-neutral-200 break-words flex text-lg h-auto min-w-full justify-center items-center text-center rounded shadow transition duration-700 
+                    hover:shadow-lg hover:scale-105 text-zinc-700 mx-auto max-w-md hover:bg-neutral-300">
+                        {knowledge.text}
+                    </div>
                 ))}
             </div>
         </React.Fragment>
