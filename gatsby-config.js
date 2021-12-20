@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Sample Site",
+    siteUrl: "https://www.tobiaszimmer.dev",
+    title: "Freelancing Developer",
   },
   plugins: [
-    {resolve: "gatsby-plugin-image"},
-    {resolve: "gatsby-plugin-sharp"},
-    {resolve: "gatsby-plugin-fontawesome-css"},
-    // { 
+    { resolve: "gatsby-plugin-image" },
+    { resolve: "gatsby-plugin-sharp" },
+    { resolve: "gatsby-plugin-fontawesome-css" },
+    // {
     //   resolve: `gatsby-plugin-purgecss`,
     //   options: {
     //     printRejected: true, // Print removed selectors and processed file names
@@ -36,7 +36,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/images/favicon.png`
+        icon: `src/images/favicon.png`,
       },
     },
   ],

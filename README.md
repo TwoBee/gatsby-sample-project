@@ -47,7 +47,13 @@ Der Starter ist der Standardstarter von Gatsby und kann wie folgt genutzt werden
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## Styling durch Tailwind (v3.0)
+5.  **Genutzte Libs**
+
+- gatsby-plugin-sass
+- gatsby-plugin-manifest
+- gatsby-plugin-fontawesome-css
+
+## ✨ Styling durch Tailwind (v3.0)
 
 Einfache Installation per NPM
 
@@ -70,3 +76,8 @@ Durch die Version 3.0 von Tailwind entfällt das Plugin "PurgeCSS" sowie der "JI
 - [Documentation](https://tailwindcss.com/docs/installation)
 
 - [TailwindLabs](https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ)
+
+## 🔤 Icons
+
+- [FontAswesome](https://fontawesome.com/)
+- [HeroIcons](https://heroicons.com/)

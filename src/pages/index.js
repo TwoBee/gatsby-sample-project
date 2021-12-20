@@ -1,5 +1,4 @@
 import * as React from "react";
-import "../../dist/output.css";
 import "../tailwind.css";
 import Introcard from "../components/introcard";
 import Timeline from "../components/timeline";
@@ -10,7 +9,7 @@ import About from "../components/about";
 // markup
 const IndexPage = () => {
   return (
-    <body class="bg-zinc-700 py-11">
+    <body className="w-full h-full py-11 bg-gradient-to-br from-zinc-700 to-black">
       <Introcard />
       <Divider />
       <Timeline />

@@ -13,8 +13,9 @@ const About = () => {
           Diese Seite wurde gebaut mit{" "}
           <a
             href="https://www.gatsbyjs.com/docs"
-            target="_blank"
             className="bg-teal-700 rounded shadow p-1 hover:bg-teal-600 hover:text-neutral-300 transition duration-300"
+            target="_blank"
+            rel="noreferrer"
           >
             Gatsby
           </a>{" "}
@@ -23,6 +24,7 @@ const About = () => {
             href="https://tailwindcss.com/"
             className="bg-teal-700 rounded shadow p-1 hover:bg-teal-600 hover:text-neutral-300 transition duration-300"
             target="_blank"
+            rel="noreferrer"
           >
             Tailwind
           </a>
@@ -31,6 +33,7 @@ const About = () => {
             href="https://github.com/TwoBee"
             className="bg-teal-700 rounded shadow p-1 hover:bg-teal-600 hover:text-neutral-300 transition duration-300"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} />
             Github Repo
