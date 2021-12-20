@@ -15,7 +15,7 @@ Der Starter ist der Standardstarter von Gatsby und kann wie folgt genutzt werden
 
     ```shell
     # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    gatsby new
     ```
 
 2.  **Anfangen zu entwickeln**
