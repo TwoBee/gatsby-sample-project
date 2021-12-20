@@ -1,33 +1,33 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://gatsbysampleprojectmain.gatsbyjs.io/">
+    <img alt="Company Logo" src="https://gatsbysampleprojectmain.gatsbyjs.io/static/logo_transparent-5fbf2d5c36134c03c74da2dde51329a4.png" width="250" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  tobiaszimmer.dev Homepage
 </h1>
 
-## 🚀 Quick start
+## 🚀 Developed with Gatsby (minimal starter)
 
-1.  **Create a Gatsby site.**
+Der Starter ist der Standardstarter von Gatsby und kann wie folgt genutzt werden:
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+1.  **Nach der Gatsby Installation einfach folgenden Befehl nutzen:**
 
     ```shell
     # create a new Gatsby site using the minimal starter
     npm init gatsby
     ```
 
-2.  **Start developing.**
+2.  **Anfangen zu entwickeln**
 
-    Navigate into your new site’s directory and start it up.
+    Einfach in das Verzeichnis navigieren, in dem das Projekt liegt und einen Develop-Server starten
 
     ```shell
     cd my-gatsby-site/
     npm run develop
     ```
 
-3.  **Open the code and start customizing!**
+3.  **In der Shell sieht man direkt, dass der Server unter localhost:8000 läuft**
 
     Your site is now running at http://localhost:8000!
 
@@ -47,10 +47,26 @@
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start (Gatsby Cloud)
+## Styling durch Tailwind (v3.0)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+Einfache Installation per NPM
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
-# gatsby-sample-project
-# gatsby-sample-project
+```shell
+npm install -D tailwindcss
+```
+
+Anstarten des Listeners
+
+```shell
+npx tailwindcss init
+```
+
+Durch die Version 3.0 von Tailwind entfällt das Plugin "PurgeCSS" sowie der "JIT" als expliziter Modus, da diese Prozesse jetzt schon zum Standard gehören.
+
+**Tailwind lernen**
+
+- [GitHub](https://github.com/tailwindlabs/tailwindcss)
+
+- [Documentation](https://tailwindcss.com/docs/installation)
+
+- [TailwindLabs](https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ)
