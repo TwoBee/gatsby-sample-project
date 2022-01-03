@@ -1,1 +1,1 @@
-import "@fontsource/fira-sans"
+import "./dist/output.css";

@@ -4,6 +4,7 @@ module.exports = {
     title: "Freelancing Developer",
   },
   plugins: [
+    { resolve: "gatsby-plugin-postcss" },
     { resolve: "gatsby-plugin-image" },
     { resolve: "gatsby-plugin-sharp" },
     { resolve: "gatsby-plugin-fontawesome-css" },

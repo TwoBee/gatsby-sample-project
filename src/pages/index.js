@@ -1,5 +1,6 @@
 import * as React from "react";
 import "../tailwind.css";
+import "../../dist/output.css";
 import Introcard from "../components/introcard";
 import Timeline from "../components/timeline";
 import Divider from "../components/divider";

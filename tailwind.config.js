@@ -5,6 +5,7 @@ module.exports = {
     "./src/pages/*.{js,jsx,ts,tsx,vue}/",
     "./src/components/*/*.{js,jsx,ts,tsx,vue}",
     "./src/components/*.{js,jsx,ts,tsx,vue}",
+    "./src/tailwind.css",
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -24,7 +25,7 @@ module.exports = {
       },
       backgroundImage: {
         "profil-bubble": "url('../src/images/logo_transparent.png')",
-        "bg": "url('../src/images/bg.svg')",
+        bg: "url('../src/images/bg.svg')",
       },
       gridTemplateColumns: {
         timeline: "calc(100% / 12 * 5) calc(100% / 12 * 2) calc(100% / 12 * 5)",
@@ -34,5 +35,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("autoprefixer")],
 };
